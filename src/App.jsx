@@ -57,7 +57,7 @@ function DataCards(){
   const Plus={
     type:"PLUS",
     price:{
-      vlaue:9,
+      value:9,
       style:"abled",
     },
     Storage:{
@@ -99,7 +99,7 @@ function DataCards(){
   const Pro={
     type:"PRO",
     price:{
-      vlaue:49,
+      value:49,
       style:"abled",
     },
     Storage:{
