@@ -1,0 +1,56 @@
+
+
+#root {
+ 
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color:blue;
+
+}
+.Data-card{
+  
+  
+  border:1px solid black;
+  padding:10px;
+  border-radius:15px ;
+  background-color: white;
+  width:300px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: left;
+}
+button{
+  background-color: blue;
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  color:white;
+}
+p{
+  text-align: left;
+}
+h5{
+  opacity: 0.5;
+
+}
+.all-cards{
+  display: flex;
+  gap:1rem;
+}
+
+.paragrah{
+  display: flex;
+}
+.close{
+ 
+  opacity: 0.5;
+  
+}
+
+
+ 
+
+
+ 
