@@ -1,29 +1,15 @@
 ## React Pricing Cards
-📄 Project Overview
+# Overview
+A responsive pricing card layout built with React and CSS, featuring three plans: Free, Plus, and Pro. Features are shown with check or cross icons, and unavailable options are disabled.
 
-This project demonstrates a responsive pricing card layout using React and CSS.
-It includes three subscription plans: Free, Plus, and Pro, each with different features and access levels.
+# Features
+Three pricing plans with different access and features
+Conditional rendering of ticks/crosses
+Responsive layout using media queries
+Hover effects on cards and buttons
 
-The project also uses conditional rendering to display check marks or cross marks for unavailable features and responsive media queries for mobile and tablet screens.
-
-🛠️ Technologies Used
-
-React.js – For building reusable components
-
-CSS – For styling and responsive design
-
-Media Queries – For mobile-first responsive layouts
-
-Google Material Symbols – For check and cross icons
-
-⚙️ Features
-
-Three pricing plans: Free, Plus, and Pro
-
-Conditional rendering for features (tick or cross icons)
-
-Responsive design with media queries
-
-Hover effect on cards
-
-Disabled state for unavailable buttons and features
+# Technologies
+* React.js
+* CSS & Flexbox
+* Media Queries
+* Material Symbols for icons
