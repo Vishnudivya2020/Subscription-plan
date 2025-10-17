@@ -1,56 +1,125 @@
 
-
-#root {
- 
+  #root {
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color:blue;
+  background-color: blue;
+}
 
-}
-.Data-card{
-  
-  
-  border:1px solid black;
-  padding:10px;
-  border-radius:15px ;
+
+.Data-card {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 15px;
   background-color: white;
-  width:300px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 300px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   justify-content: left;
+  transition: transform 0.3s ease;
 }
-button{
+
+.Data-card:hover {
+  transform: translateY(-5px);
+}
+
+button {
   background-color: blue;
   width: 200px;
   height: 30px;
   border: none;
   border-radius: 20px;
-  color:white;
+  color: white;
+  cursor: pointer;
 }
-p{
+
+button:hover {
+  background-color: darkblue;
+}
+
+p {
   text-align: left;
 }
-h5{
+
+h5 {
   opacity: 0.5;
-
-}
-.all-cards{
-  display: flex;
-  gap:1rem;
 }
 
-.paragrah{
+.all-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.paragrah {
   display: flex;
 }
-.close{
- 
+
+.close {
   opacity: 0.5;
-  
 }
 
+@media (max-width: 992px) {
+  #root {
+    background-color: rgb(66, 66, 238); 
+    padding: 1.5rem;
+  }
 
- 
+  .Data-card {
+    width: 45%;
+  }
 
+  button {
+    width: 180px;
+  }
+}
 
- 
+@media (max-width: 600px) {
+  #root {
+    padding: 1rem;
+    background-color: lightblue;
+  }
+
+  .all-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Data-card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Data-card {
+    padding: 8px;
+    width: 100%;
+  }
+
+  button {
+    height: 32px;
+    font-size: 13px;
+  }
+
+  #root {
+    background-color: #9dc9f5;
+  }
+}
+
